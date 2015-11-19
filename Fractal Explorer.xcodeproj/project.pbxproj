@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		262286D71BFD6EA200AF6949 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 262286D61BFD6EA200AF6949 /* AppDelegate.m */; };
+		262286DA1BFD6EA200AF6949 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 262286D91BFD6EA200AF6949 /* main.m */; };
+		262286DC1BFD6EA200AF6949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262286DB1BFD6EA200AF6949 /* Assets.xcassets */; };
+		262286DF1BFD6EA200AF6949 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262286DD1BFD6EA200AF6949 /* MainMenu.xib */; };
+		262286EA1BFD6EA200AF6949 /* Fractal_ExplorerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 262286E91BFD6EA200AF6949 /* Fractal_ExplorerTests.m */; };
+		262286F51BFD6EA200AF6949 /* Fractal_ExplorerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 262286F41BFD6EA200AF6949 /* Fractal_ExplorerUITests.m */; };
+		262287041BFD729800AF6949 /* FractalNSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 262287031BFD729800AF6949 /* FractalNSView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		262286E61BFD6EA200AF6949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 262286CA1BFD6EA200AF6949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 262286D11BFD6EA200AF6949;
+			remoteInfo = "Fractal Explorer";
+		};
+		262286F11BFD6EA200AF6949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 262286CA1BFD6EA200AF6949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 262286D11BFD6EA200AF6949;
+			remoteInfo = "Fractal Explorer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		262286D21BFD6EA200AF6949 /* Fractal Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fractal Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		262286D51BFD6EA200AF6949 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		262286D61BFD6EA200AF6949 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		262286D91BFD6EA200AF6949 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		262286DB1BFD6EA200AF6949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		262286DE1BFD6EA200AF6949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		262286E01BFD6EA200AF6949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		262286E51BFD6EA200AF6949 /* Fractal ExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fractal ExplorerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		262286E91BFD6EA200AF6949 /* Fractal_ExplorerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fractal_ExplorerTests.m; sourceTree = "<group>"; };
+		262286EB1BFD6EA200AF6949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		262286F01BFD6EA200AF6949 /* Fractal ExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fractal ExplorerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		262286F41BFD6EA200AF6949 /* Fractal_ExplorerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fractal_ExplorerUITests.m; sourceTree = "<group>"; };
+		262286F61BFD6EA200AF6949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		262287021BFD729800AF6949 /* FractalNSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FractalNSView.h; sourceTree = "<group>"; };
+		262287031BFD729800AF6949 /* FractalNSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FractalNSView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		262286CF1BFD6EA200AF6949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262286E21BFD6EA200AF6949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262286ED1BFD6EA200AF6949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		262286C91BFD6EA200AF6949 = {
+			isa = PBXGroup;
+			children = (
+				262286D41BFD6EA200AF6949 /* Fractal Explorer */,
+				262286E81BFD6EA200AF6949 /* Fractal ExplorerTests */,
+				262286F31BFD6EA200AF6949 /* Fractal ExplorerUITests */,
+				262286D31BFD6EA200AF6949 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		262286D31BFD6EA200AF6949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				262286D21BFD6EA200AF6949 /* Fractal Explorer.app */,
+				262286E51BFD6EA200AF6949 /* Fractal ExplorerTests.xctest */,
+				262286F01BFD6EA200AF6949 /* Fractal ExplorerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		262286D41BFD6EA200AF6949 /* Fractal Explorer */ = {
+			isa = PBXGroup;
+			children = (
+				262286D51BFD6EA200AF6949 /* AppDelegate.h */,
+				262286D61BFD6EA200AF6949 /* AppDelegate.m */,
+				262287021BFD729800AF6949 /* FractalNSView.h */,
+				262287031BFD729800AF6949 /* FractalNSView.m */,
+				262286DB1BFD6EA200AF6949 /* Assets.xcassets */,
+				262286DD1BFD6EA200AF6949 /* MainMenu.xib */,
+				262286E01BFD6EA200AF6949 /* Info.plist */,
+				262286D81BFD6EA200AF6949 /* Supporting Files */,
+			);
+			path = "Fractal Explorer";
+			sourceTree = "<group>";
+		};
+		262286D81BFD6EA200AF6949 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				262286D91BFD6EA200AF6949 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		262286E81BFD6EA200AF6949 /* Fractal ExplorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				262286E91BFD6EA200AF6949 /* Fractal_ExplorerTests.m */,
+				262286EB1BFD6EA200AF6949 /* Info.plist */,
+			);
+			path = "Fractal ExplorerTests";
+			sourceTree = "<group>";
+		};
+		262286F31BFD6EA200AF6949 /* Fractal ExplorerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				262286F41BFD6EA200AF6949 /* Fractal_ExplorerUITests.m */,
+				262286F61BFD6EA200AF6949 /* Info.plist */,
+			);
+			path = "Fractal ExplorerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		262286D11BFD6EA200AF6949 /* Fractal Explorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 262286F91BFD6EA200AF6949 /* Build configuration list for PBXNativeTarget "Fractal Explorer" */;
+			buildPhases = (
+				262286CE1BFD6EA200AF6949 /* Sources */,
+				262286CF1BFD6EA200AF6949 /* Frameworks */,
+				262286D01BFD6EA200AF6949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fractal Explorer";
+			productName = "Fractal Explorer";
+			productReference = 262286D21BFD6EA200AF6949 /* Fractal Explorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		262286E41BFD6EA200AF6949 /* Fractal ExplorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 262286FC1BFD6EA200AF6949 /* Build configuration list for PBXNativeTarget "Fractal ExplorerTests" */;
+			buildPhases = (
+				262286E11BFD6EA200AF6949 /* Sources */,
+				262286E21BFD6EA200AF6949 /* Frameworks */,
+				262286E31BFD6EA200AF6949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				262286E71BFD6EA200AF6949 /* PBXTargetDependency */,
+			);
+			name = "Fractal ExplorerTests";
+			productName = "Fractal ExplorerTests";
+			productReference = 262286E51BFD6EA200AF6949 /* Fractal ExplorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		262286EF1BFD6EA200AF6949 /* Fractal ExplorerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 262286FF1BFD6EA200AF6949 /* Build configuration list for PBXNativeTarget "Fractal ExplorerUITests" */;
+			buildPhases = (
+				262286EC1BFD6EA200AF6949 /* Sources */,
+				262286ED1BFD6EA200AF6949 /* Frameworks */,
+				262286EE1BFD6EA200AF6949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				262286F21BFD6EA200AF6949 /* PBXTargetDependency */,
+			);
+			name = "Fractal ExplorerUITests";
+			productName = "Fractal ExplorerUITests";
+			productReference = 262286F01BFD6EA200AF6949 /* Fractal ExplorerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		262286CA1BFD6EA200AF6949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Chaim Peck";
+				TargetAttributes = {
+					262286D11BFD6EA200AF6949 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					262286E41BFD6EA200AF6949 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 262286D11BFD6EA200AF6949;
+					};
+					262286EF1BFD6EA200AF6949 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 262286D11BFD6EA200AF6949;
+					};
+				};
+			};
+			buildConfigurationList = 262286CD1BFD6EA200AF6949 /* Build configuration list for PBXProject "Fractal Explorer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 262286C91BFD6EA200AF6949;
+			productRefGroup = 262286D31BFD6EA200AF6949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				262286D11BFD6EA200AF6949 /* Fractal Explorer */,
+				262286E41BFD6EA200AF6949 /* Fractal ExplorerTests */,
+				262286EF1BFD6EA200AF6949 /* Fractal ExplorerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		262286D01BFD6EA200AF6949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262286DC1BFD6EA200AF6949 /* Assets.xcassets in Resources */,
+				262286DF1BFD6EA200AF6949 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262286E31BFD6EA200AF6949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262286EE1BFD6EA200AF6949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		262286CE1BFD6EA200AF6949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262286DA1BFD6EA200AF6949 /* main.m in Sources */,
+				262286D71BFD6EA200AF6949 /* AppDelegate.m in Sources */,
+				262287041BFD729800AF6949 /* FractalNSView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262286E11BFD6EA200AF6949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262286EA1BFD6EA200AF6949 /* Fractal_ExplorerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262286EC1BFD6EA200AF6949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262286F51BFD6EA200AF6949 /* Fractal_ExplorerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		262286E71BFD6EA200AF6949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 262286D11BFD6EA200AF6949 /* Fractal Explorer */;
+			targetProxy = 262286E61BFD6EA200AF6949 /* PBXContainerItemProxy */;
+		};
+		262286F21BFD6EA200AF6949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 262286D11BFD6EA200AF6949 /* Fractal Explorer */;
+			targetProxy = 262286F11BFD6EA200AF6949 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		262286DD1BFD6EA200AF6949 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				262286DE1BFD6EA200AF6949 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		262286F71BFD6EA200AF6949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		262286F81BFD6EA200AF6949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		262286FA1BFD6EA200AF6949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Fractal Explorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chaimpeck.Fractal-Explorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		262286FB1BFD6EA200AF6949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Fractal Explorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chaimpeck.Fractal-Explorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		262286FD1BFD6EA200AF6949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Fractal ExplorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chaimpeck.Fractal-ExplorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fractal Explorer.app/Contents/MacOS/Fractal Explorer";
+			};
+			name = Debug;
+		};
+		262286FE1BFD6EA200AF6949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Fractal ExplorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chaimpeck.Fractal-ExplorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fractal Explorer.app/Contents/MacOS/Fractal Explorer";
+			};
+			name = Release;
+		};
+		262287001BFD6EA200AF6949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Fractal ExplorerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chaimpeck.Fractal-ExplorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Fractal Explorer";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		262287011BFD6EA200AF6949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Fractal ExplorerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chaimpeck.Fractal-ExplorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Fractal Explorer";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		262286CD1BFD6EA200AF6949 /* Build configuration list for PBXProject "Fractal Explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262286F71BFD6EA200AF6949 /* Debug */,
+				262286F81BFD6EA200AF6949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		262286F91BFD6EA200AF6949 /* Build configuration list for PBXNativeTarget "Fractal Explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262286FA1BFD6EA200AF6949 /* Debug */,
+				262286FB1BFD6EA200AF6949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		262286FC1BFD6EA200AF6949 /* Build configuration list for PBXNativeTarget "Fractal ExplorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262286FD1BFD6EA200AF6949 /* Debug */,
+				262286FE1BFD6EA200AF6949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		262286FF1BFD6EA200AF6949 /* Build configuration list for PBXNativeTarget "Fractal ExplorerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262287001BFD6EA200AF6949 /* Debug */,
+				262287011BFD6EA200AF6949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 262286CA1BFD6EA200AF6949 /* Project object */;
+}
